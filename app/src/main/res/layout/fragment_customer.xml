@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.Provider.SlideshowFragment">
+    tools:context=".fragments.CustomerFragment">
+
 
 
     <LinearLayout
@@ -16,7 +16,7 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-           android:layout_marginLeft="20dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/light_green"
@@ -33,7 +33,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Provider Name"
+                    android:text="Customer Name"
                     android:textSize="18dp"
                     android:textColor="@color/green"
                     android:fontFamily="@font/poppins_semibold"/>
@@ -48,16 +48,16 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Location :"
+                        android:text="Number of Food Ordered :"
                         android:textSize="17dp"
-                        android:drawablePadding="5dp"
-                        android:drawableLeft="@drawable/baseline_add_location_24"
+                        android:drawablePadding="10dp"
+                        android:drawableLeft="@drawable/baseline_fastfood_24"
                         android:fontFamily="@font/poppins_medium"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="NashikDeola"
+                        android:text="10"
                         android:layout_marginLeft="10dp"
                         android:textSize="17dp"
                         android:fontFamily="@font/poppins_semibold"/>
@@ -74,17 +74,6 @@
 
 
         </androidx.cardview.widget.CardView>
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -13,13 +13,28 @@
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.codizcdp.foodbanksurplusadmin.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:name="com.codizcdp.foodbanksurplusadmin.ui.request.GalleryFragment"
+        android:label="Food Items"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.codizcdp.foodbanksurplusadmin.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:name="com.codizcdp.foodbanksurplusadmin.ui.Provider.SlideshowFragment"
+        android:label="Provider"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_customer"
+        android:name="com.codizcdp.foodbanksurplusadmin.fragments.CustomerFragment"
+        android:label="Customer"
+        tools:layout="@layout/fragment_customer" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.codizcdp.foodbanksurplusadmin.fragments.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.codizcdp.foodbanksurplusadmin.fragments.FeedbackFragment"
+        android:label="Feedback"
+        tools:layout="@layout/fragment_feedback" />
 </navigation>
